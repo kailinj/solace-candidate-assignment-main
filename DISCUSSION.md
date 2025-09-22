@@ -11,6 +11,7 @@
 - Improve sizing / scrolling UX
 - Improve search UX by highlighting the matching string
 - Use Solace brand colors
+- Utilize icons where appropriate
 
 ## Data
 - Move repeated/shared data to separate tables and create join tables between them & advocates
@@ -23,3 +24,4 @@
 - Log in/out
 - Authentication for API calls (via JWT or something along those lines)
 - Role-based access
+
