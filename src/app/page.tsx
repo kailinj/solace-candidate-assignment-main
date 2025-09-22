@@ -1,14 +1,12 @@
 "use client";
 
-import Table from "./components/table";
+import TableWithSearch from "./components/table-with-search";
 
 export default function Home() {
   return (
-    <main style={{ margin: "24px" }}>
-      <h1>Solace Advocates</h1>
-      <br />
-      <br />
-      <Table />
+    <main className="container mx-auto p-4">
+      <h1 className="text-3xl font-bold">Solace Advocates</h1>
+      <TableWithSearch />
     </main>
   );
 }
