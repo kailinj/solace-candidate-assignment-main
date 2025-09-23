@@ -20,3 +20,6 @@
   - Degrees
   - Cities
 - **Authentication**: Require user to be logged in, pass token via Request headers, verify token on BE before returining data
+
+## Testing
+- **Create tests**: Check component rendering, user interactions, and API request/response handling
